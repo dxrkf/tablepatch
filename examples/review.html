@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'"><title>TablePatch review</title><style>body{font:17px system-ui;background:#0d1423;color:#e2e8f0;max-width:1100px;margin:50px auto;padding:24px}h1{color:#5eead4}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#18263c;padding:24px;border-radius:16px}</style><h1>TablePatch / CSV change review</h1><p>added: 1 | removed: 1 | updated: 1</p><p>Cell values are exact strings. Row and column order do not affect data fingerprints.</p><pre>{
+  &quot;format&quot;: &quot;tablepatch-v1&quot;,
+  &quot;key&quot;: &quot;sku&quot;,
+  &quot;before_columns&quot;: [
+    &quot;sku&quot;,
+    &quot;name&quot;,
+    &quot;stock&quot;,
+    &quot;price&quot;
+  ],
+  &quot;after_columns&quot;: [
+    &quot;price&quot;,
+    &quot;stock&quot;,
+    &quot;name&quot;,
+    &quot;sku&quot;
+  ],
+  &quot;before_sha256&quot;: &quot;65fd85bbd8b44ce39df9bdf377332933fb4f98020ea6928b961cc10cdc3d8d39&quot;,
+  &quot;after_sha256&quot;: &quot;c74d57d3a6ef547dbb202667ffa42cff0436ae7797e75a20a1a09ed8f3f1a74e&quot;,
+  &quot;added&quot;: [
+    {
+      &quot;price&quot;: &quot;18.00&quot;,
+      &quot;stock&quot;: &quot;8&quot;,
+      &quot;name&quot;: &quot;Desk Pad&quot;,
+      &quot;sku&quot;: &quot;A104&quot;
+    }
+  ],
+  &quot;removed&quot;: [
+    {
+      &quot;sku&quot;: &quot;A102&quot;,
+      &quot;name&quot;: &quot;Pen&quot;,
+      &quot;stock&quot;: &quot;50&quot;,
+      &quot;price&quot;: &quot;3.00&quot;
+    }
+  ],
+  &quot;updated&quot;: [
+    {
+      &quot;key&quot;: &quot;A101&quot;,
+      &quot;before&quot;: {
+        &quot;sku&quot;: &quot;A101&quot;,
+        &quot;name&quot;: &quot;Notebook&quot;,
+        &quot;stock&quot;: &quot;20&quot;,
+        &quot;price&quot;: &quot;12.00&quot;
+      },
+      &quot;after&quot;: {
+        &quot;price&quot;: &quot;12.00&quot;,
+        &quot;stock&quot;: &quot;16&quot;,
+        &quot;name&quot;: &quot;Notebook&quot;,
+        &quot;sku&quot;: &quot;A101&quot;
+      }
+    }
+  ]
+}</pre></html>

@@ -1,0 +1,51 @@
+{
+  "format": "tablepatch-v1",
+  "key": "sku",
+  "before_columns": [
+    "sku",
+    "name",
+    "stock",
+    "price"
+  ],
+  "after_columns": [
+    "price",
+    "stock",
+    "name",
+    "sku"
+  ],
+  "before_sha256": "65fd85bbd8b44ce39df9bdf377332933fb4f98020ea6928b961cc10cdc3d8d39",
+  "after_sha256": "c74d57d3a6ef547dbb202667ffa42cff0436ae7797e75a20a1a09ed8f3f1a74e",
+  "added": [
+    {
+      "price": "18.00",
+      "stock": "8",
+      "name": "Desk Pad",
+      "sku": "A104"
+    }
+  ],
+  "removed": [
+    {
+      "sku": "A102",
+      "name": "Pen",
+      "stock": "50",
+      "price": "3.00"
+    }
+  ],
+  "updated": [
+    {
+      "key": "A101",
+      "before": {
+        "sku": "A101",
+        "name": "Notebook",
+        "stock": "20",
+        "price": "12.00"
+      },
+      "after": {
+        "price": "12.00",
+        "stock": "16",
+        "name": "Notebook",
+        "sku": "A101"
+      }
+    }
+  ]
+}

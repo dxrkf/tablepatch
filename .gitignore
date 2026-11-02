@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+changes.json
+review.html
+rebuilt.csv
+private-data/
